@@ -11,5 +11,14 @@ header{
     justify-content: space-around;
     align-items: stretch;
     color:white;
-
+}
+#header-section{
+    margin-top:18%;
+}
+#services{
+    background-image:url('backgrounds/s_image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    padding:50px 0;
 }
