@@ -42,3 +42,9 @@ input,textarea{
     background-color: transparent;
     color: white;
 }  
+#social-icons{
+    margin:30px auto;
+}  
+#social-icons img{
+    margin-right:15px;
+}
