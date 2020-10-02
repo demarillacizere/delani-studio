@@ -1,3 +1,15 @@
 body{
     text-align: center;
 }
+header{
+    background-image:url('backgrounds/h_img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    color:white;
+
+}
