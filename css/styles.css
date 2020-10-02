@@ -33,3 +33,12 @@ header{
 .icon-headers{
     font-weight: bold;
 }
+#contacts{
+    background-image:url('backgrounds/c_image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+input,textarea{
+    background-color: transparent;
+    color: white;
+}  
