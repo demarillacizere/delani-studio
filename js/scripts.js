@@ -11,4 +11,9 @@ $(document).ready(function(){
         $('#product').toggle();
         $('#products-icon').toggle();
     })
+    $("#mouse-click").click(function() {
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#about-us").offset().top
+        }, 1000);
+    });
 })
