@@ -10,7 +10,7 @@ This webpage is a landing page for Delani studio where you can access informatio
 There are no known bugs.
 ## Technologies Used
 I have used HTML,CSS ,Bootstrap,Jquery and Javascript for this website.
-#### Link to live site :
+#### Link to live site : https://demarillacizere.github.io/delani-studio/
 ## Support and contact details
 If you need more clarifications feel free to contact me on izered3@gmail.com
 ### License
