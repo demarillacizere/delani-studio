@@ -50,7 +50,7 @@ $(document).ready(function(){
     })
 });
 
-function thisfunction(event) {
+function myFunction(event) {
   if (event.keyCode=== 13) {
    event.preventDefault();
    document.getElementById("myForm").submit();
