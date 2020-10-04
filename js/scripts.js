@@ -16,9 +16,38 @@ $(document).ready(function(){
             scrollTop: $("#about-us").offset().top
         }, 1000);
     });
+    $('#work1').hover(function(){
+        $('.text1').toggle();
+        $('.text1').addClass('overlay');
+    })
     $('#work2').hover(function(){
-        $('#work2').addClass('overlay');
-    });
+        $('.text2').toggle();
+        $('.text2').addClass('overlay');
+    })
+    $('#work3').hover(function(){
+        $('.text3').toggle();
+        $('.text3').addClass('overlay');
+    })
+    $('#work4').hover(function(){
+        $('.text4').toggle();
+        $('.text4').addClass('overlay');
+    })
+    $('#work5').hover(function(){
+        $('.text5').toggle();
+        $('.text5').addClass('overlay');
+    })
+    $('#work6').hover(function(){
+        $('.text6').toggle();
+        $('.text6').addClass('overlay');
+    })
+    $('#work7').hover(function(){
+        $('.text7').toggle();
+        $('.text7').addClass('overlay');
+    })
+    $('#work8').hover(function(){
+        $('.text8').toggle();
+        $('.text8').addClass('overlay');
+    })
 });
 
 function thisfunction(event) {
