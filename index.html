@@ -67,26 +67,42 @@
             </div>
         </div>
         <h2>PORTFOLIO</h2>
-        <div id="portfolio" class="container-fluid">
-            <div class='row'>
-                <section id="work1" class='col-sm-3'><div>BAILY WONGER</div></section>
-                <section id="work2" class='col-sm-3'><div>BAILY WONGER</div></section>
-                <section id="work3" class='col-sm-3'><div>BAILY WONGER</div></section>
-                <section id="work4" class='col-sm-3'><div>BAILY WONGER</div></section>
+        <div id="portfolio" class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <section id="work1"><div>BAILY WONGER</div></section>
+                </div>
+                <div class="col-lg-3">
+                    <section id="work2"><div>BAILY WONGER</div></section>
+                </div>
+                <div class="col-lg-3">
+                    <section id="work3"><div>BAILY WONGER</div></section>
+                </div>
+                <div class="col-lg-3">
+                    <section id="work4"><div>BAILY WONGER</div></section>
+                </div>
             </div>
             <div class='row'>
-                <section id="work5" class='col-sm-3'><div>BAILY WONGER</div></section>
-                <section id="work6" class='col-sm-3'><div>BAILY WONGER</div></section>
-                <section id="work7" class='col-sm-3'><div>BAILY WONGER</div></section>
-                <section id="work8" class='col-sm-3'><div>BAILY WONGER</div></section>
+                <div class="col-lg-3">
+                    <section id="work5"><div>BAILY WONGER</div></section>
+                </div>
+                <div class="col-lg-3">
+                    <section id="work6"><div>BAILY WONGER</div></section>
+                </div>
+                <div class="col-lg-3">
+                    <section id="work7"><div>BAILY WONGER</div></section>
+                </div>
+                <div class="col-lg-3">
+                    <section id="work8"><div>BAILY WONGER</div></section>
+                </div>
             </div>
         </div>
         <div id="contacts">
             <h2>CONTACT US</h2>
-            <form onsubmit="myFunction()">
-                    <input type="text" value="Name..." id="name"> &NonBreakingSpace;
-                    <input type="email" value="Email..."><br><br>
-                    <textarea cols="40" rows="15">Your message here...</textarea>
+            <form id="myForm">
+                    <input type="text" placeholder="Name..." id="name" required > &NonBreakingSpace;
+                    <input type="email" placeholder="Email..." id="myInput" required ><br><br>
+                    <textarea id="myText" cols="30" rows="15" placeholder="Your message here"  onkeyup="thisfunction(event)" ></textarea>
             </form>
         </div>
         <footer>
