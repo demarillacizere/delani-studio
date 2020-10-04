@@ -25,76 +25,59 @@ header{
     background-size: cover;
     color:white;
     padding:50px 0;
-}
-#what-we-do{
-    display:flex;
-    justify-content: space-around;
+    margin:15px auto;
 }
 #design,#development,#product{
-    margin:auto 30px;
     display:none;
 }
 .icon-headers{
     font-weight: bold;
 }
-#portfolio{
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin:auto 150px;
-    /* display:grid;
-    grid-template-columns: auto auto auto auto;
-    grid-column-gap: 15px;
-     */
+h2{
+    font-family: 'Roboto', sans-serif;
 }
-#work1{
-    background-image:url("backgrounds/work1.jpg");
-}
-#work2{
-    background-image:url("backgrounds/work2.jpg");
-}
-#work3{
-    background-image:url("backgrounds/work3.jpg");
-}
-#work4{
-    background-image:url("backgrounds/work4.jpg");
-}
-#work5{
-    background-image:url("backgrounds/work5.jpg");
-}
-#work6{
-    background-image:url("backgrounds/work6.jpg");
-}
-#work7{
-    background-image:url("backgrounds/work7.jpg");
-}
-#work8{
-    background-image:url("backgrounds/work8.jpg");
+#portfolio img{
+    width:100%;
 }
 #portfolio section{
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding:10%;
-    width:4%;
-    margin-bottom: 10px;
-    /* width:100%;
-    height: 150px; */
-    
-    /* height:200px; */
+    position:relative;
 }
-#work8 span{
-    padding: 40%;
-    color:white;
+.text1,.text2,.text3,.text4,.text5,.text6,.text7,.text8{
+    position: absolute;
+    border: solid 2px white;
+    color: white;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom:15px;
+    text-align: left;
+    padding:10px 10px 10px 10px;
+    display: none;
+    font-size:32px;
+    z-index: 2;
+}
+.overlay{
+    background-color: rgba(0,0,0,0.7);
 }
 #contacts{
     background-image:url('backgrounds/c_image.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
+    padding-bottom: 40px;
 }
 input,textarea{
     background-color: transparent;
+    width:50%;
     color: white;
+    border:solid silver 2px;
 }  
+input{
+    width:30%;
+}
+::placeholder {
+    color:white;
+}
 #social-icons{
     margin:30px auto;
 }  
